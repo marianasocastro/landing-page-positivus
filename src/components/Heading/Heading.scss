@@ -1,0 +1,17 @@
+@import '../../index.scss';
+
+.heading-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 40px;
+    h2{
+        background-color: $color-green;
+        border-radius: $border-radius;
+        padding: 2px 7px;
+    }
+    p{
+        max-width: 600px;
+    }
+}

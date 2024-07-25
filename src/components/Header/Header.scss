@@ -1,0 +1,48 @@
+header{
+    // height: 100vh;
+    display: flex !important;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 20px !important;
+    row-gap: 40px;
+}
+
+
+.header-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 80px;
+    .header-text{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+        row-gap: 30px;
+        width: 50%;
+    }
+    .header-img{
+        display: flex;
+        justify-content: center;
+        width: 50%;
+        img{
+            width: 100%;
+            
+        }
+    }
+}
+
+.companies-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 60px !important;
+    margin-bottom: 80px !important;
+    height: 48px;
+    img{
+        height: 100%;
+        filter: grayscale(100%);
+    }
+}

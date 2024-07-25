@@ -1,25 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import Header from '../src/components/Header/Header';
+import Heading from  '../src/components/Heading/Heading';
+import Cards from '../src/components/Cards/Cards';
+import './App.scss';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+      <Header/>
+      <Heading 
+      title="Services" 
+      text="At our digital marketing agency, we offer a range of services to help businesses grow and succeed online. These services include:"
+      />
+      <Cards/>
+    </>
+  )
 }
 
 export default App;
